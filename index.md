@@ -19,9 +19,11 @@ layout: default
   <source src="/images/cansat_cad.mp4" type="video/mp4">
 </video>
 
+<img src="/images/presentation.HEIC" width="50%">
+
 - Footage
 - Image of cansat
-- Image of cad
+
 - image of pcb
-- image of presentation
-- image of rocket
+
+
