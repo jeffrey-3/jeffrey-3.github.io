@@ -25,7 +25,7 @@ layout: default
 
 <img src="/images/presentation.png" height="200px">
 
-<img src="/images/cansat_group.jpg" hght="200px">
+<img src="/images/cansat_group.jpg" height="200px">
 
 </div>
 
