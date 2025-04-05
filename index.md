@@ -21,6 +21,8 @@ layout: default
 
 <img src="/images/presentation.HEIC" width="50%">
 
+<img src="/images/cansat_group.jpg" width="50%">
+
 - Footage
 - Image of cansat
 
