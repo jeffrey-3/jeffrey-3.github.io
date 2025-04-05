@@ -19,7 +19,7 @@ layout: default
   <source src="/images/cansat_cad.mp4" type="video/mp4">
 </video>
 
-<img src="/images/presentation.HEIC" width="50%">
+<img src="/images/presentation.png" width="50%">
 
 <img src="/images/cansat_group.jpg" width="50%">
 
