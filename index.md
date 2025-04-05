@@ -7,27 +7,23 @@ layout: default
 
 # Canadian CanSat Design Challenge
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-
-<video width="200px" controls>
+<video width="100%" controls>
   <source src="/images/cansat_onboard_camera.mp4" type="video/mp4">
 </video>
 
-<video width="200px" controls>
+<video width="100%" controls>
   <source src="/images/rocket_launch.mp4" type="video/mp4">
 </video>
 
-<img src="/images/cansat_complete.jpg" width="200px">
+<img src="/images/cansat_complete.jpg" width="100%">
 
-<video width="200px" controls>
+<video width="100%" controls>
   <source src="/images/cansat_cad.mp4" type="video/mp4">
 </video>
 
-<img src="/images/presentation.png" width="200px">
+<img src="/images/presentation.png" width="100%">
 
-<img src="/images/cansat_group.jpg" width="200px">
-
-</div>
+<img src="/images/cansat_group.jpg" width="100%">
 
 # RC Plane Autopilot
 
