@@ -25,9 +25,10 @@ layout: default
 
 <img src="/images/cansat_group.jpg" width="50%">
 
-- Footage
-- Image of cansat
+# RC Plane Autopilot
 
-- image of pcb
+# Visual-Inertial Odometry
 
+# Successive Convexification Moon Landing Guidance
 
+# Electro-Optical Tracking Turret
