@@ -7,6 +7,8 @@ layout: default
 
 # Canadian CanSat Design Challenge
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
 <video width="50%" controls>
   <source src="/images/cansat_onboard_camera.mp4" type="video/mp4">
 </video>
@@ -24,6 +26,8 @@ layout: default
 <img src="/images/presentation.png" width="50%">
 
 <img src="/images/cansat_group.jpg" width="50%">
+
+</div>
 
 # RC Plane Autopilot
 
