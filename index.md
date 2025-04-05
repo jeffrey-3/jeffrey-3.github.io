@@ -3,6 +3,6 @@ title: Jeffrey Zhuang
 layout: default
 ---
 
-![](/images/cockpit.webp)
+<img src="/images/cockpit.webp" width="50%">
 
 # Canadian CanSat Design Challenge
