@@ -3,6 +3,4 @@ title: Jeffrey Zhuang
 layout: default
 ---
 
-# Test
-- One
-- Second
+![](/images/cockpit.webp)
