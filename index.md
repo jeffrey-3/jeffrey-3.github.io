@@ -27,8 +27,19 @@ layout: default
 
 # RC Plane Autopilot
 
+- Foam trainer flight
+- HITL
+
+## Third Iteration
+
+## Second Iteration
+
+## First Iteration
+
 # Visual-Inertial Odometry
 
 # Successive Convexification Moon Landing Guidance
+
+# Rocket Landing Guidance, Navigation, and Controls Testbed
 
 # Electro-Optical Tracking Turret
