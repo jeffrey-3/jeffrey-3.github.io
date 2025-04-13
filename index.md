@@ -51,6 +51,10 @@ layout: default
 
 # Successive Convexification Moon Landing Guidance
 
+<video width="100%" controls>
+  <source src="/images/cvx.mp4" type="video/mp4">
+</video>
+
 # Rocket Landing Guidance, Navigation, and Controls Testbed
 
 # Electro-Optical Tracking Turret
