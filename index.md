@@ -21,6 +21,10 @@ layout: default
   <source src="/images/cansat_cad.mp4" type="video/mp4">
 </video>
 
+- Picture of PCB
+- Schematic
+- PCB Layout
+
 <img src="/images/presentation.png" width="100%">
 
 <img src="/images/cansat_group.jpg" width="100%">
