@@ -27,7 +27,10 @@ layout: default
 
 # RC Plane Autopilot
 
-- Foam trainer flight
+<video width="100%" controls>
+  <source src="/images/slowtrainer.mp4" type="video/mp4">
+</video>
+
 - HITL
 
 ## Third Iteration
