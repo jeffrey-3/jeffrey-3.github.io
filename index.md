@@ -57,4 +57,6 @@ layout: default
 
 # Rocket Landing Guidance, Navigation, and Controls Testbed
 
+<img src="/images/hopper.webp" width="100%">
+
 # Electro-Optical Tracking Turret
