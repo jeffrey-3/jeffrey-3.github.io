@@ -45,6 +45,10 @@ layout: default
 
 # Visual-Inertial Odometry
 
+<video width="100%" controls>
+  <source src="/images/vio.mp4" type="video/mp4">
+</video>
+
 # Successive Convexification Moon Landing Guidance
 
 # Rocket Landing Guidance, Navigation, and Controls Testbed
