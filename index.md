@@ -4,6 +4,7 @@ layout: default
 ---
 
 <img src="/images/cockpit.webp" width="25%">
+Flying in a Boeing 777 Full Cockpit Simulator
 
 # Canadian CanSat Design Challenge
 
