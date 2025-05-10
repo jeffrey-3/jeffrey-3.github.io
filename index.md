@@ -13,15 +13,23 @@ Flying in a Boeing 777 Full Cockpit Simulator
   <source src="/images/cansat_onboard_camera.mp4" type="video/mp4">
 </video>
 
+<br>
+
 <video width="40%" controls>
   <source src="/images/rocket_launch.mp4" type="video/mp4">
 </video>
 
+<br>
+
 <img src="/images/cansat_complete.jpg" width="40%">
+
+<br>
 
 <video width="40%" controls>
   <source src="/images/cansat_cad.mp4" type="video/mp4">
 </video>
+
+<br>
 
 - Picture of PCB
 - Schematic
@@ -29,13 +37,19 @@ Flying in a Boeing 777 Full Cockpit Simulator
 
 <img src="/images/presentation.png" width="40%">
 
+<br>
+
 <img src="/images/cansat_group.jpg" width="40%">
+
+<br>
 
 # RC Plane Autopilot
 
-<video width="100%" controls>
+<video width="40%" controls>
   <source src="/images/slowtrainer.mp4" type="video/mp4">
 </video>
+
+<br>
 
 - HITL
 
