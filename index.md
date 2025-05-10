@@ -9,17 +9,17 @@ Flying in a Boeing 777 Full Cockpit Simulator
 
 # Canadian CanSat Design Challenge
 
-<video width="100%" controls>
+<video width="40%" controls>
   <source src="/images/cansat_onboard_camera.mp4" type="video/mp4">
 </video>
 
-<video width="100%" controls>
+<video width="40%" controls>
   <source src="/images/rocket_launch.mp4" type="video/mp4">
 </video>
 
-<img src="/images/cansat_complete.jpg" width="100%">
+<img src="/images/cansat_complete.jpg" width="40%">
 
-<video width="100%" controls>
+<video width="40%" controls>
   <source src="/images/cansat_cad.mp4" type="video/mp4">
 </video>
 
@@ -27,9 +27,9 @@ Flying in a Boeing 777 Full Cockpit Simulator
 - Schematic
 - PCB Layout
 
-<img src="/images/presentation.png" width="100%">
+<img src="/images/presentation.png" width="40%">
 
-<img src="/images/cansat_group.jpg" width="100%">
+<img src="/images/cansat_group.jpg" width="40%">
 
 # RC Plane Autopilot
 
