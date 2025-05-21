@@ -43,6 +43,8 @@ layout: default
 
 # Autonomous Plane
 
+<img src="/images/uav_cad.png" width="40%">
+
 <video width="40%" controls>
   <source src="/images/slowtrainer.mp4" type="video/mp4">
 </video>
@@ -56,8 +58,6 @@ layout: default
 <img src="/images/mainboard.webp" width="40%">
 
 <img src="/images/autopilot_layout.png" width="40%">
-
-<img src="/images/uav_cad.png" width="40%">
 
 # Visual-Inertial Odometry
 
