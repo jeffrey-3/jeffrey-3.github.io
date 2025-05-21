@@ -113,3 +113,7 @@ My interests
 <img src="/images/eots_cad.png" width="40%">
 
 <img src="/images/eots_tracking.webp" width="40%">
+
+# Canard Actively-Guided Rocket
+
+- Coming soon
