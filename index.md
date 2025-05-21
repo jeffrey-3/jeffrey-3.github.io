@@ -83,6 +83,6 @@ layout: default
 
 # Electro-Optical Tracking Turret
 
-<img src="/images/eots_cad" width="40%">
+<img src="/images/eots_cad.png" width="40%">
 
 - Video of tracking
