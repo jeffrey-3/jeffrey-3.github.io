@@ -51,6 +51,8 @@ layout: default
 
 - HITL
 
+<img src="/images/enclosure.webp" width="40%">
+
 <img src="/images/mainboard.webp" width="40%">
 
 <img src="/images/autopilot_layout.png" width="40%">
