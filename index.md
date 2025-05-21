@@ -92,7 +92,7 @@ My interests
 
 <img src="/images/autopilot_layout.png" width="40%">
 
-## Hardware in the loop testing
+## Hardware in the loop testing with a custom flight simulator written in Python
 
 <video width="40%" controls>
   <source src="/images/hitl.mp4" type="video/mp4">
