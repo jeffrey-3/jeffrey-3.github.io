@@ -53,6 +53,8 @@ layout: default
 
 <img src="/images/mainboard.webp" width="40%">
 
+<img src="/images/autopilot_layout.png" width="40%">
+
 # Visual-Inertial Odometry
 
 <video width="40%" controls>
