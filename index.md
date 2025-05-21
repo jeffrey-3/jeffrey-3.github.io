@@ -5,8 +5,6 @@ layout: default
 
 <img src="/images/cockpit.webp" width="25%">
 
-Flying in a Boeing 777 Full Cockpit Simulator
-
 # Canadian CanSat Design Challenge
 
 <video width="40%" controls>
@@ -61,18 +59,22 @@ Flying in a Boeing 777 Full Cockpit Simulator
 
 # Visual-Inertial Odometry
 
-<video width="100%" controls>
+<video width="40%" controls>
   <source src="/images/vio.mp4" type="video/mp4">
 </video>
 
 # Successive Convexification Moon Landing Guidance
 
-<video width="100%" controls>
+<video width="40%" controls>
   <source src="/images/sucessive_convex.mp4" type="video/mp4">
 </video>
 
 # Rocket Landing Guidance, Navigation, and Controls Testbed
 
-<img src="/images/hopper.webp" width="100%">
+<img src="/images/hopper.webp" width="40%">
+
+<img src="/images/avionics_stack.webp" width="40%">
+
+<img src="/images/first_pcb.webp" width="40%">
 
 # Electro-Optical Tracking Turret
