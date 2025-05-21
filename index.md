@@ -106,6 +106,8 @@ My interests
 
 <img src="/images/hopper.webp" width="40%">
 
+<img src="/images/hopper_cad.png" width="40%">
+
 <img src="/images/avionics_stack.webp" width="40%">
 
 <img src="/images/first_pcb.webp" width="40%">
