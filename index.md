@@ -6,11 +6,9 @@ layout: default
 <img src="/images/cockpit.webp" width="25%">
 
 My interests
-- Rocket propulsive landing guidance, navigation, and control algorithms
-- Avionics
-- Guided missiles and reverse engineering
-- Autonomous unmanned aerial vehicles 
-- Aircraft
+- Rocket propulsive landing, aircraft, and missile guidance, navigation, and control algorithms
+- Guided missiles, loitering munitions, autonomous unmanned aerial vehicles, and reverse engineering
+- Aircraft and avionics
 - Electro-optical and infrared tracking systems
 - Visual-inertial odometry
 
