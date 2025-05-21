@@ -51,7 +51,9 @@ layout: default
 
 <br>
 
-- HITL
+<video width="40%" controls>
+  <source src="/images/hitl.mp4" type="video/mp4">
+</video>
 
 <img src="/images/enclosure.webp" width="40%">
 
