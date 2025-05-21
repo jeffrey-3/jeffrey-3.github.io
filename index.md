@@ -102,6 +102,8 @@ My interests
   <source src="/images/sucessive_convex.mp4" type="video/mp4">
 </video>
 
+<img src="/images/gfold_poster.png" width="40%">
+
 # Rocket Landing Guidance, Navigation, and Controls Testbed
 
 <img src="/images/hopper.webp" width="40%">
