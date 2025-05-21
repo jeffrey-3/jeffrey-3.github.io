@@ -74,6 +74,10 @@ My interests
 
 <br>
 
+<img src="/images/printedplane.webp" width="40%">
+
+<br>
+
 <video width="40%" controls>
   <source src="/images/slowtrainer.mp4" type="video/mp4">
 </video>
@@ -87,6 +91,8 @@ My interests
 <img src="/images/carrier_pcb.webp" width="40%">
 
 <img src="/images/autopilot_layout.png" width="40%">
+
+## Hardware in the loop testing
 
 <video width="40%" controls>
   <source src="/images/hitl.mp4" type="video/mp4">
@@ -114,11 +120,19 @@ My interests
 
 <img src="/images/avionics_stack.webp" width="40%">
 
+<img src="/images/stack_obc.webp" width="40%">
+
+<img src="/images/stack_eps.webp" width="40%">
+
 <img src="/images/first_pcb.webp" width="40%">
 
 # Electro-Optical Tracking Turret
 
 <img src="/images/eots_cad.png" width="40%">
+
+<img src="/images/eots.webp" width="40%">
+
+<img src="/images/3dprinter.webp" width="40%">
 
 <img src="/images/eots_tracking.webp" width="40%">
 
