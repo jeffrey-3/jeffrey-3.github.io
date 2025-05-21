@@ -29,7 +29,9 @@ layout: default
 
 <br>
 
-- Picture of PCB
+<img src="/images/cansat_pcb_photo.png" width="40%">
+
+<br>
 
 <img src="/images/cansat_pcb_render.png" width="40%">
 
