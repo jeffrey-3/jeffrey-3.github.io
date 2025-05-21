@@ -5,6 +5,15 @@ layout: default
 
 <img src="/images/cockpit.webp" width="25%">
 
+My interests
+- Rocket propulsive landing guidance, navigation, and control algorithms
+- Avionics
+- Guided missiles
+- Autonomous unmanned aerial vehicles 
+- Aircraft
+- Electro-optical and infrared tracking systems
+- Visual-inertial odometry
+
 # Canadian CanSat Design Challenge
 
 <video width="40%" controls>
