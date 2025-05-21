@@ -57,6 +57,8 @@ layout: default
 
 <img src="/images/uav_cad.png" width="40%">
 
+<img src="/images/xflr5.webp" width="40%">
+
 <video width="40%" controls>
   <source src="/images/uav_flight.mp4" type="video/mp4">
 </video>
