@@ -14,8 +14,6 @@ My interests
 - Electro-optical and infrared tracking systems
 - Visual-inertial odometry
 
-I like to read engineering forums, project blogs, and message engineers for help on my projects
-
 # Canadian CanSat Design Challenge
 
 <video width="40%" controls>
