@@ -85,7 +85,7 @@ layout: default
   <source src="/images/vio.mp4" type="video/mp4">
 </video>
 
-# Successive Convexification Moon Landing Guidance
+# Successive Convexification Propulsive Landing Guidance
 
 <video width="40%" controls>
   <source src="/images/sucessive_convex.mp4" type="video/mp4">
