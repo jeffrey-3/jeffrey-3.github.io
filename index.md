@@ -51,11 +51,7 @@ layout: default
 
 - HITL
 
-## Third Iteration
-
-## Second Iteration
-
-## First Iteration
+<img src="/images/mainboard.webp" width="40%">
 
 # Visual-Inertial Odometry
 
