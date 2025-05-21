@@ -82,3 +82,7 @@ layout: default
 <img src="/images/first_pcb.webp" width="40%">
 
 # Electro-Optical Tracking Turret
+
+<img src="/images/eots_cad" width="40%">
+
+- Video of tracking
