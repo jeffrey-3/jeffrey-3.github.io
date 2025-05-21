@@ -30,8 +30,18 @@ layout: default
 <br>
 
 - Picture of PCB
-- Schematic
-- PCB Layout
+
+<img src="/images/cansat_pcb_render.png" width="40%">
+
+<br>
+
+<img src="/images/cansat_pcb_schematic.png" width="40%">
+
+<br>
+
+<img src="/images/cansat_pcb_layout.png" width="40%">
+
+<br>
 
 <img src="/images/presentation.png" width="40%">
 
@@ -91,4 +101,4 @@ layout: default
 
 <img src="/images/eots_cad.png" width="40%">
 
-- Video of tracking
+It uses OpenCV to track airplanes in the sky but I did not record a video...
