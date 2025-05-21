@@ -105,4 +105,4 @@ layout: default
 
 <img src="/images/eots_cad.png" width="40%">
 
-It uses OpenCV to track airplanes in the sky but I did not record a video...
+<img src="/images/eots_tracking.webp" width="40%">
