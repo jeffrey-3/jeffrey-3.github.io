@@ -46,20 +46,26 @@ layout: default
 <img src="/images/uav_cad.png" width="40%">
 
 <video width="40%" controls>
-  <source src="/images/slowtrainer.mp4" type="video/mp4">
+  <source src="/images/uav_flight.mp4" type="video/mp4">
 </video>
 
 <br>
 
 <video width="40%" controls>
-  <source src="/images/hitl.mp4" type="video/mp4">
+  <source src="/images/slowtrainer.mp4" type="video/mp4">
 </video>
+
+<br>
 
 <img src="/images/enclosure.webp" width="40%">
 
 <img src="/images/mainboard.webp" width="40%">
 
 <img src="/images/autopilot_layout.png" width="40%">
+
+<video width="40%" controls>
+  <source src="/images/hitl.mp4" type="video/mp4">
+</video>
 
 # Visual-Inertial Odometry
 
