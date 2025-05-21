@@ -84,6 +84,8 @@ My interests
 
 <img src="/images/mainboard.webp" width="40%">
 
+<img src="/images/carrier_pcb.webp" width="40%">
+
 <img src="/images/autopilot_layout.png" width="40%">
 
 <video width="40%" controls>
