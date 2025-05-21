@@ -8,7 +8,7 @@ layout: default
 My interests
 - Rocket propulsive landing guidance, navigation, and control algorithms
 - Avionics
-- Guided missiles
+- Guided missiles and reverse engineering
 - Autonomous unmanned aerial vehicles 
 - Aircraft
 - Electro-optical and infrared tracking systems
