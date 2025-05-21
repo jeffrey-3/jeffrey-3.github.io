@@ -10,7 +10,7 @@ My Github: <a href="https://github.com/jeffrey-3">https://github.com/jeffrey-3</
 My interests
 - Rocket propulsive landing, aircraft, and missile guidance, navigation, and control algorithms
 - Guided missiles, loitering munitions, autonomous unmanned aerial vehicles, and reverse engineering
-- Aircraft and avionics
+- Aircraft, avionics, and UAV ground control interfaces
 - Electro-optical and infrared tracking systems
 - Visual-inertial odometry
 
