@@ -5,8 +5,6 @@ layout: default
 
 <img src="/images/cockpit.webp" width="25%">
 
-My Github: <a href="https://github.com/jeffrey-3">https://github.com/jeffrey-3</a>
-
 My interests
 - Rocket propulsive landing, aircraft, and missile guidance, navigation, and control algorithms
 - Guided missiles, loitering munitions, autonomous unmanned aerial vehicles, and reverse engineering
