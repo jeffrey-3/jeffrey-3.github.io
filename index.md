@@ -108,6 +108,8 @@ My interests
   <source src="/images/sucessive_convex.mp4" type="video/mp4">
 </video>
 
+## My grade 10 science class presentation...
+
 <img src="/images/gfold_poster.png" width="40%">
 
 # Rocket Landing Guidance, Navigation, and Controls Testbed
