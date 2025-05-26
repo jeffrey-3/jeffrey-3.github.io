@@ -141,5 +141,3 @@ My interests
 <img src="/images/liquid_engine_crosssection.webp" width="40%">
 
 # Canard Actively-Guided Rocket
-
-- Coming soon
