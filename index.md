@@ -14,7 +14,15 @@ My interests
 
 # Revolve Surgical Internship
 
-- Nothing here yet, will add later
+## Multiplicative Quaternion Extended Kalman Filter
+
+<video width="40%" controls>
+  <source src="/images/mekf.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<img src="/images/mekf_math.png" width="40%">
 
 # Canard Actively-Guided Rocket
 
