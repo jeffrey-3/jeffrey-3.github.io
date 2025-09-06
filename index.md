@@ -16,13 +16,11 @@ My interests
 
 ## Multiplicative Quaternion Extended Kalman Filter
 
+Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative Quaternion Extended Kalman Filtering for Nonspinning Guided Projectiles by James M. Maley</a>
+
 <video width="40%" controls>
   <source src="/images/mekf.mp4" type="video/mp4">
 </video>
-
-<br>
-
-<img src="/images/mekf_math.png" width="40%">
 
 # Canard Actively-Guided Rocket
 
