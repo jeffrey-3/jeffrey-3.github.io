@@ -12,6 +12,12 @@ My interests
 - Electro-optical and infrared tracking systems
 - Visual-inertial odometry
 
+# Revolve Surgical Internship
+
+# Canard Actively-Guided Rocket
+
+<img src="/images/guided_missile.png" width="40%">
+
 # Canadian CanSat Design Challenge
 
 <video width="40%" controls>
@@ -108,7 +114,7 @@ My interests
   <source src="/images/sucessive_convex.mp4" type="video/mp4">
 </video>
 
-## My grade 10 science class presentation...
+## My grade 10 science class presentation
 
 <img src="/images/gfold_poster.png" width="40%">
 
@@ -139,5 +145,3 @@ My interests
 # Liquid Rocket Engine
 
 <img src="/images/liquid_engine_crosssection.webp" width="40%">
-
-# Canard Actively-Guided Rocket
