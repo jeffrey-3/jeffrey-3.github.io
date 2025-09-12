@@ -146,8 +146,6 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <img src="/images/eots.webp" width="40%">
 
-<img src="/images/3dprinter.webp" width="40%">
-
 <img src="/images/eots_tracking.webp" width="40%">
 
 # Liquid Rocket Engine
