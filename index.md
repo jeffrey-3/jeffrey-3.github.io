@@ -13,9 +13,7 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
   <source src="/images/mekf.mp4" type="video/mp4">
 </video>
 
-<div id="missile"></div>
-
-# Canard Actively-Guided Rocket
+<h1 id="missile">Micro 33mm Precision-Guided Missile</h1>
 
 <img src="/images/guided_missile.png" width="40%">
 
@@ -67,9 +65,7 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <br>
 
-<div id="plane"></div>
-
-# Autonomous Plane
+<h1 id="plane">Autonomous Plane</h1>
 
 <img src="/images/uav_cad.png" width="40%">
 
@@ -121,9 +117,7 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <img src="/images/gfold_poster.png" width="40%">
 
-<div id="lander"></div>
-
-# Rocket Landing Guidance, Navigation, and Controls Testbed
+<h1 id="lander">Rocket Landing Guidance, Navigation, and Controls Testbed</h1>
 
 <img src="/images/hopper.webp" width="40%">
 
