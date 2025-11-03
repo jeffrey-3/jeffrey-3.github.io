@@ -3,15 +3,6 @@ title: Jeffrey Zhuang
 layout: default
 ---
 
-<img src="/images/cockpit.webp" width="25%">
-
-My interests
-- Rocket propulsive landing, aircraft, and missile guidance, navigation, and control algorithms
-- Guided missiles, loitering munitions, and autonomous unmanned aerial vehicles
-- Aircraft, avionics, and UAV ground control interfaces
-- Electro-optical and infrared tracking systems
-- Visual-inertial odometry
-
 # Revolve Surgical Internship
 
 ## Multiplicative Quaternion Extended Kalman Filter
@@ -21,6 +12,8 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 <video width="40%" controls>
   <source src="/images/mekf.mp4" type="video/mp4">
 </video>
+
+<div id="missile"></div>
 
 # Canard Actively-Guided Rocket
 
@@ -74,6 +67,8 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <br>
 
+<div id="plane"></div>
+
 # Autonomous Plane
 
 <img src="/images/uav_cad.png" width="40%">
@@ -125,6 +120,8 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 ## My grade 10 science class presentation
 
 <img src="/images/gfold_poster.png" width="40%">
+
+<div id="lander"></div>
 
 # Rocket Landing Guidance, Navigation, and Controls Testbed
 
