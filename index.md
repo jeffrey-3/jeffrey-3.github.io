@@ -17,6 +17,8 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <img src="/images/guided_missile.png" width="40%">
 
+<img src="/images/camera-sbc.png" width="40%">
+
 # Canadian CanSat Design Challenge
 
 <video width="40%" controls>
