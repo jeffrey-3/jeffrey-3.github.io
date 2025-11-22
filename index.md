@@ -15,11 +15,17 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <h1 id="missile">Micro 33mm Precision-Guided Missile</h1>
 
+In progress
+
 <img src="/images/guided_missile.png" width="40%">
 
 <img src="/images/camera-sbc.png" width="40%">
 
 <img src="/images/missile-pcb.png" width="40%">
+
+# Carleton University's CubeSat Design Team (CUOnOrbit)
+
+In progress
 
 # Canadian CanSat Design Challenge
 
