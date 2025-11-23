@@ -3,6 +3,8 @@ title: Jeffrey Zhuang
 layout: default
 ---
 
+<img src="/images/cockpit.webp" width="40%">
+
 # Revolve Surgical Internship
 
 ## Multiplicative Quaternion Extended Kalman Filter
