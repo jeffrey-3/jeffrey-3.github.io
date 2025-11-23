@@ -3,7 +3,7 @@ title: Jeffrey Zhuang
 layout: default
 ---
 
-<img src="/images/cockpit.webp" width="40%">
+<img src="/images/cockpit.webp" width="20%">
 
 # Revolve Surgical Internship
 
