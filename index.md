@@ -25,6 +25,10 @@ In progress
 
 <img src="/images/missile-pcb.png" width="40%">
 
+Computer vision for target tracking:
+
+<img src="/images/target-tracking.png" width="40%">
+
 # Carleton University's CubeSat Design Team (CUOnOrbit)
 
 In progress
