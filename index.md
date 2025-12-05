@@ -25,6 +25,8 @@ In progress
 
 <img src="/images/missile-pcb.png" width="40%">
 
+<img src="/images/missile_pcb_render.png" width="40%">
+
 Computer vision for target tracking:
 
 <img src="/images/target-tracking.png" width="40%">
