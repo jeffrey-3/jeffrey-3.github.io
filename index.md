@@ -35,6 +35,10 @@ Computer vision for target tracking:
 
 In progress
 
+CubeSat Multiplicative Extended Kalman Filter (MEKF)
+
+<img src="/images/mekf-simulink.png" width="40%">
+
 # Canadian CanSat Design Challenge
 
 <video width="40%" controls>
