@@ -31,8 +31,7 @@ Computer vision for target tracking:
 
 <img src="/images/target-tracking.png" width="40%">
 
-# Carleton University's CubeSat Design Team (CUOnOrbit)
-
+<h1 id="cubesat">Carleton University's CubeSat Design Team (CUOnOrbit)</h1>
 In progress
 
 CubeSat Multiplicative Extended Kalman Filter (MEKF)
