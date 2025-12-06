@@ -148,7 +148,7 @@ CubeSat Multiplicative Extended Kalman Filter (MEKF)
   <source src="/images/sucessive_convex.mp4" type="video/mp4">
 </video>
 
-My grade 10 science class presentation:
+My grade 10 science class presentation: <br>
 <img src="/images/gfold_poster.png" width="40%">
 
 # Electro-Optical Tracking Turret
