@@ -122,22 +122,6 @@ CubeSat Multiplicative Extended Kalman Filter (MEKF)
   <source src="/images/hitl.mp4" type="video/mp4">
 </video>
 
-# Visual-Inertial Odometry
-
-<video width="40%" controls>
-  <source src="/images/vio.mp4" type="video/mp4">
-</video>
-
-# Successive Convexification Propulsive Landing Guidance
-
-<video width="40%" controls>
-  <source src="/images/sucessive_convex.mp4" type="video/mp4">
-</video>
-
-## My grade 10 science class presentation
-
-<img src="/images/gfold_poster.png" width="40%">
-
 <h1 id="lander">Rocket Landing Guidance, Navigation, and Controls Testbed</h1>
 
 <img src="/images/hopper.webp" width="40%">
@@ -151,6 +135,21 @@ CubeSat Multiplicative Extended Kalman Filter (MEKF)
 <img src="/images/stack_eps.webp" width="40%">
 
 <img src="/images/first_pcb.webp" width="40%">
+
+## Visual-Inertial Odometry
+
+<video width="40%" controls>
+  <source src="/images/vio.mp4" type="video/mp4">
+</video>
+
+## Successive Convexification Propulsive Landing Guidance
+
+<video width="40%" controls>
+  <source src="/images/sucessive_convex.mp4" type="video/mp4">
+</video>
+
+My grade 10 science class presentation:
+<img src="/images/gfold_poster.png" width="40%">
 
 # Electro-Optical Tracking Turret
 
