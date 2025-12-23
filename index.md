@@ -31,6 +31,10 @@ Computer vision for target tracking:
 
 <img src="/images/target-tracking.png" width="40%">
 
+Full 6DOF missile simulator with aerodynamics in Python:
+
+<img src="/images/missile-sim.png" width="40%">
+
 <h1 id="cubesat">Carleton University's CubeSat Design Team (CUOnOrbit)</h1>
 In progress
 
