@@ -35,6 +35,42 @@ Full 6DOF missile simulator with aerodynamics in Python:
 
 <img src="/images/missile-sim.png" width="40%">
 
+<h1 id="plane">Autonomous Plane</h1>
+
+<img src="/images/uav_cad.png" width="40%">
+
+<img src="/images/xflr5.webp" width="40%">
+
+<video width="40%" controls>
+  <source src="/images/uav_flight.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<img src="/images/printedplane.webp" width="40%">
+
+<br>
+
+<video width="40%" controls>
+  <source src="/images/slowtrainer.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<img src="/images/enclosure.webp" width="40%">
+
+<img src="/images/mainboard.webp" width="40%">
+
+<img src="/images/carrier_pcb.webp" width="40%">
+
+<img src="/images/autopilot_layout.png" width="40%">
+
+## Hardware in the loop testing with a custom flight simulator written in Python
+
+<video width="40%" controls>
+  <source src="/images/hitl.mp4" type="video/mp4">
+</video>
+
 # Canadian CanSat Design Challenge
 
 <video width="40%" controls>
@@ -82,42 +118,6 @@ Full 6DOF missile simulator with aerodynamics in Python:
 <img src="/images/cansat_group.jpg" width="40%">
 
 <br>
-
-<h1 id="plane">Autonomous Plane</h1>
-
-<img src="/images/uav_cad.png" width="40%">
-
-<img src="/images/xflr5.webp" width="40%">
-
-<video width="40%" controls>
-  <source src="/images/uav_flight.mp4" type="video/mp4">
-</video>
-
-<br>
-
-<img src="/images/printedplane.webp" width="40%">
-
-<br>
-
-<video width="40%" controls>
-  <source src="/images/slowtrainer.mp4" type="video/mp4">
-</video>
-
-<br>
-
-<img src="/images/enclosure.webp" width="40%">
-
-<img src="/images/mainboard.webp" width="40%">
-
-<img src="/images/carrier_pcb.webp" width="40%">
-
-<img src="/images/autopilot_layout.png" width="40%">
-
-## Hardware in the loop testing with a custom flight simulator written in Python
-
-<video width="40%" controls>
-  <source src="/images/hitl.mp4" type="video/mp4">
-</video>
 
 <h1 id="lander">Rocket Landing Guidance, Navigation, and Controls Testbed</h1>
 
