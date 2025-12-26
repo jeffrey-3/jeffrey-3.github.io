@@ -21,6 +21,8 @@ In progress
 
 <img src="/images/guided_missile.png" width="40%">
 
+<img src="/images/cas.png" width="40%">
+
 <img src="/images/camera-sbc.png" width="40%">
 
 <img src="/images/missile-pcb.png" width="40%">
@@ -34,8 +36,6 @@ Computer vision for target tracking:
 Full 6DOF missile simulator with aerodynamics in Python:
 
 <img src="/images/missile-sim.png" width="40%">
-
-<img src="/images/cas.png" width="40%">
 
 <h1 id="plane">Autonomous Plane</h1>
 
