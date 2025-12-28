@@ -155,7 +155,3 @@ My grade 10 science class presentation: <br>
 <img src="/images/eots.webp" width="40%">
 
 <img src="/images/eots_tracking.webp" width="40%">
-
-# Liquid Rocket Engine
-
-<img src="/images/liquid_engine_crosssection.webp" width="40%">
