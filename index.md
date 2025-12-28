@@ -5,16 +5,6 @@ layout: default
 
 <img src="/images/cockpit.webp" width="20%">
 
-# Revolve Surgical Internship
-
-## Multiplicative Quaternion Extended Kalman Filter
-
-Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative Quaternion Extended Kalman Filtering for Nonspinning Guided Projectiles by James M. Maley</a>
-
-<video width="40%" controls>
-  <source src="/images/mekf.mp4" type="video/mp4">
-</video>
-
 <h1 id="missile">Micro 33mm Precision-Guided Missile</h1>
 
 In progress
@@ -36,6 +26,16 @@ Computer vision for target tracking:
 Full 6DOF missile simulator with aerodynamics in Python:
 
 <img src="/images/missile-sim.png" width="40%">
+
+# Revolve Surgical Internship
+
+## Multiplicative Quaternion Extended Kalman Filter
+
+Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative Quaternion Extended Kalman Filtering for Nonspinning Guided Projectiles by James M. Maley</a>
+
+<video width="40%" controls>
+  <source src="/images/mekf.mp4" type="video/mp4">
+</video>
 
 <h1 id="plane">Autonomous Plane</h1>
 
