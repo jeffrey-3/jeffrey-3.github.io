@@ -115,10 +115,6 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <br>
 
-<img src="/images/cansat_group.jpg" width="40%">
-
-<br>
-
 <h1 id="lander">Rocket Landing Guidance, Navigation, and Controls Testbed</h1>
 
 <img src="/images/hopper.webp" width="40%">
