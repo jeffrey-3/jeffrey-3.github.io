@@ -141,12 +141,11 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 ## Successive Convexification Propulsive Landing Guidance
 
+Based on <a href="https://arxiv.org/pdf/1802.03827">Successive Convexification for 6-DoF Mars Rocket Powered Landing with Free-Final-Time</a>
+
 <video width="40%" controls>
   <source src="/images/sucessive_convex.mp4" type="video/mp4">
 </video>
-
-My grade 10 science class presentation: <br>
-<img src="/images/gfold_poster.png" width="40%">
 
 # Electro-Optical Tracking Turret
 
