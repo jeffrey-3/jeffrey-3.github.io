@@ -79,7 +79,7 @@ Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative
 
 <br>
 
-<video width="40%" controls>
+<video width="30%" controls>
   <source src="/images/rocket_launch.mp4" type="video/mp4">
 </video>
 
