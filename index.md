@@ -11,7 +11,11 @@ layout: default
 
 <img src="/images/cas.png" width="40%">
 
-<img src="/images/camera-sbc.png" width="40%">
+<img src="/images/camera-pcb.png" width="40%">
+
+Very messy layout, very much work-in-progress
+
+<img src="/images/camera-pcb-layout.png" width="40%">
 
 <img src="/images/missile-pcb.png" width="40%">
 
