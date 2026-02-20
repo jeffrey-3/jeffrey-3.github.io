@@ -6,6 +6,8 @@ layout: default
 <img src="/images/cockpit.webp" width="20%">
 <img src="/images/emc.jfif" width="20%">
 
+Resume: <a href="https://docs.google.com/document/d/1zFgNPcJynfORQ27HFbYnqj_kx93CFN513Nw3XoEbEEE/edit?usp=sharing"></a>
+
 <h1 id="missile">Micro 33mm Precision-Guided Missile</h1>
 
 <img src="/images/missile-assembled.png" width="40%">
