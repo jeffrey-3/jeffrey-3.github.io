@@ -8,6 +8,8 @@ layout: default
 
 <h1 id="missile">Micro 33mm Precision-Guided Missile</h1>
 
+<img src="/images/missile-assembled.png" width="40%">
+
 <img src="/images/guided_missile.png" width="40%">
 
 <img src="/images/cas.png" width="40%">
