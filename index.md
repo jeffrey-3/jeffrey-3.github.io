@@ -34,6 +34,8 @@ Full 6DOF missile simulator with aerodynamics in Python:
 
 # Revolve Surgical Internship
 
+My best PCBs were here but I don't have pictures..... will update soon
+
 ## Multiplicative Quaternion Extended Kalman Filter
 
 Based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf">Multiplicative Quaternion Extended Kalman Filtering for Nonspinning Guided Projectiles by James M. Maley</a>
