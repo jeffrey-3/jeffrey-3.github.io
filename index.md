@@ -7,6 +7,7 @@ layout: default
 <img src="/images/emc.jfif" width="20%">
 
 Resume: <a href="https://docs.google.com/document/d/1zFgNPcJynfORQ27HFbYnqj_kx93CFN513Nw3XoEbEEE/edit?usp=sharing" target="_blank">Click this link</a>
+
 LinkedIn: <a href="https://www.linkedin.com/in/jeffreyzhuang/" target="_blank">Click this link</a>
 
 <h1 id="missile">Micro 33mm Precision-Guided Missile</h1>
