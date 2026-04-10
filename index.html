@@ -186,23 +186,6 @@
             transform: scale(1.02);
         }
         
-        .subproject {
-            margin-top: 2rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border);
-        }
-        
-        .subproject h4 {
-            font-size: 1.1rem;
-            margin-bottom: 1rem;
-            color: var(--accent);
-            font-weight: 600;
-        }
-
-        .subproject p {
-            color: var(--text-secondary);
-        }
-        
         footer {
             text-align: center;
             padding: 3rem 2rem;
@@ -258,9 +241,10 @@
             <ul class="nav-right">
                 <li><a href="#missile">Missile</a></li>
                 <li><a href="#plane">UAV</a></li>
-                <li><a href="#cansat">CanSat</a></li>
                 <li><a href="#lander">Lander</a></li>
-                <li><a href="#eots">EO-TS</a></li>
+                <li><a href="#cansat">CanSat</a></li>
+                <li><a href="#eots">Turret</a></li>
+                <li><a href="#mekf">MEKF</a></li>
             </ul>
         </nav>
     </header>
@@ -284,22 +268,6 @@
             </div>
         </section>
         
-        <section>
-            <h2>Revolve Surgical - Internship</h2>
-            <div class="project">
-                <p>Medical robotics hardware development. Designed high-density PCBs for surgical robotic systems.</p>
-                <div class="subproject">
-                    <h4>Multiplicative Quaternion Extended Kalman Filter</h4>
-                    <p>Implementation of MQEKF for attitude estimation based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf" target="_blank">Maley's paper</a>.</p>
-                    <div class="media-grid">
-                        <video controls>
-                            <source src="images/mekf.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
         <section id="plane">
             <h2>Autonomous Plane</h2>
             <div class="project">
@@ -307,50 +275,19 @@
                 <div class="media-grid">
                     <img src="images/uav_cad.png" alt="UAV CAD">
                     <img src="images/xflr5.webp" alt="XFLR5 Analysis">
-                    <video controls>
+                    <video autoplay muted loop playsinline>
                         <source src="images/uav_flight.mp4" type="video/mp4">
                     </video>
                     <img src="images/printedplane.webp" alt="Printed Plane">
-                    <video controls>
+                    <video autoplay muted loop playsinline>
                         <source src="images/slowtrainer.mp4" type="video/mp4">
                     </video>
                     <img src="images/enclosure.webp" alt="Enclosure">
                     <img src="images/mainboard.webp" alt="Main Board">
-                    <img src="images/carrier_pcb.webp" alt="Carrier PCB">
                     <img src="images/autopilot_layout.png" alt="Autopilot Layout">
-                </div>
-                <div class="subproject">
-                    <h4>Hardware in the Loop Testing</h4>
-                    <p>Custom flight simulator written in Python for HIL testing.</p>
-                    <div class="media-grid">
-                        <video controls>
-                            <source src="images/hitl.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="cansat">
-            <h2>Canadian CanSat Design Challenge</h2>
-            <div class="project">
-                <p>University team competition designing a can-sized satellite with onboard camera and telemetry.</p>
-                <div class="media-grid">
-                    <video controls>
-                        <source src="images/cansat_onboard_camera.mp4" type="video/mp4">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/hitl.mp4" type="video/mp4">
                     </video>
-                    <video controls>
-                        <source src="images/rocket_launch.mp4" type="video/mp4">
-                    </video>
-                    <img src="images/cansat_complete.jpg" alt="CanSat Complete">
-                    <video controls>
-                        <source src="images/cansat_cad.mp4" type="video/mp4">
-                    </video>
-                    <img src="images/cansat_pcb_photo.png" alt="CanSat PCB Photo">
-                    <img src="images/cansat_pcb_render.png" alt="CanSat PCB Render">
-                    <img src="images/cansat_pcb_schematic.png" alt="CanSat PCB Schematic">
-                    <img src="images/cansat_pcb_layout.png" alt="CanSat PCB Layout">
-                    <img src="images/presentation.png" alt="Presentation">
                 </div>
             </div>
         </section>
@@ -366,23 +303,37 @@
                     <img src="images/stack_obc.webp" alt="OBC">
                     <img src="images/stack_eps.webp" alt="EPS">
                     <img src="images/first_pcb.webp" alt="First PCB">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/vio.mp4" type="video/mp4">
+                    </video>
+                    <video autoplay muted loop playsinline>
+                        <source src="images/sucessive_convex.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/gfold_poster.png" alt="G-FOLD Poster">
                 </div>
-                <div class="subproject">
-                    <h4>Visual-Inertial Odometry</h4>
-                    <div class="media-grid">
-                        <video controls>
-                            <source src="images/vio.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="subproject">
-                    <h4>Successive Convexification Propulsive Landing Guidance</h4>
-                    <p>Implementation based on <a href="https://arxiv.org/pdf/1802.03827" target="_blank">Successive Convexification for 6-DoF Mars Rocket Powered Landing</a>.</p>
-                    <div class="media-grid">
-                        <video controls>
-                            <source src="images/sucessive_convex.mp4" type="video/mp4">
-                        </video>
-                    </div>
+            </div>
+        </section>
+        
+        <section id="cansat">
+            <h2>Canadian CanSat Design Challenge</h2>
+            <div class="project">
+                <p>Team competition designing a can-sized satellite with onboard camera and telemetry.</p>
+                <div class="media-grid">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/cansat_onboard_camera.mp4" type="video/mp4">
+                    </video>
+                    <video autoplay muted loop playsinline>
+                        <source src="images/rocket_launch.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/cansat_complete.jpg" alt="CanSat Complete">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/cansat_cad.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/cansat_pcb_photo.png" alt="CanSat PCB Photo">
+                    <img src="images/cansat_pcb_render.png" alt="CanSat PCB Render">
+                    <img src="images/cansat_pcb_schematic.png" alt="CanSat PCB Schematic">
+                    <img src="images/cansat_pcb_layout.png" alt="CanSat PCB Layout">
+                    <img src="images/presentation.png" alt="Presentation">
                 </div>
             </div>
         </section>
@@ -390,11 +341,25 @@
         <section id="eots">
             <h2>Electro-Optical Tracking Turret</h2>
             <div class="project">
-                <p> gimbaled camera system for target tracking with servo control.</p>
+                <p>Gimbaled camera system for target tracking with servo control.</p>
                 <div class="media-grid">
                     <img src="images/eots_cad.png" alt="EO-TS CAD">
                     <img src="images/eots.webp" alt="EO-TS">
                     <img src="images/eots_tracking.webp" alt="EO-TS Tracking">
+                </div>
+            </div>
+        </section>
+        
+        <section id="mekf">
+            <h2>MEKF</h2>
+            <div class="project">
+                <p>Multiplicative Quaternion Extended Kalman Filter for attitude estimation (done as part of an internship).</p>
+                <div class="media-grid">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/mekf.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/revolve.jpg" alt="Revolve">
+                    <img src="images/emc.jfif" alt="EMC">
                 </div>
             </div>
         </section>
