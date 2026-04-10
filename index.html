@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffrey Zhuang - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fafafa;
+        }
+        
+        header {
+            background: #fff;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        nav h1 {
+            font-size: 1.5rem;
+            color: #1a1a1a;
+        }
+        
+        nav ul {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        nav a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        nav a:hover {
+            color: #1a1a1a;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 1rem;
+            margin-bottom: 3rem;
+        }
+        
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+        
+        .links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        
+        .links a {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        
+        .links a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        section {
+            margin-bottom: 4rem;
+        }
+        
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+        }
+        
+        .project {
+            background: #fff;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .project p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .media-grid img, .media-grid video {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+            background: #f0f0f0;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .media-grid.videos img, .media-grid.videos video {
+            grid-column: span 1;
+        }
+        
+        .resume-section {
+            background: #fff;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .resume-section a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        
+        .resume-section a:hover {
+            background: #764ba2;
+        }
+        
+        .subproject {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .subproject h4 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                gap: 1rem;
+            }
+            
+            .media-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Jeffrey Zhuang</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#missile">Missile</a></li>
+                <li><a href="#plane">UAV</a></li>
+                <li><a href="#cansat">CanSat</a></li>
+                <li><a href="#lander">Lander</a></li>
+                <li><a href="#eots">EO-TS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero" id="about">
+            <h2>Jeffrey Zhuang</h2>
+            <p>Robotics Engineer specializing in Guidance, Navigation, and Controls (GNC)</p>
+            <div class="links">
+                <a href="https://docs.google.com/document/d/1zFgNPcJynfORQ27HFbYnqj_kx93CFN513Nw3XoEbEEE/edit?usp=sharing" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/jeffreyzhuang/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        
+        <section id="missile">
+            <h2>Micro 33mm Precision-Guided Missile</h2>
+            <div class="project">
+                <p>Development of a micro-scale precision-guided missile with onboard computer vision targeting and 6DOF flight simulation.</p>
+                <div class="media-grid">
+                    <img src="images/missile-assembled.png" alt="Missile assembled">
+                    <img src="images/guided_missile.png" alt="Guided missile">
+                    <img src="images/cas.png" alt="CAS">
+                    <img src="images/camera-pcb.png" alt="Camera PCB">
+                    <img src="images/camera-pcb-layout.png" alt="Camera PCB Layout">
+                    <img src="images/missile-pcb.png" alt="Missile PCB">
+                    <img src="images/missile-pcb-render.png" alt="Missile PCB Render">
+                    <img src="images/target-tracking.png" alt="Target Tracking">
+                    <img src="images/missile-sim.png" alt="Missile Simulation">
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Revolve Surgical - Internship</h2>
+            <div class="project">
+                <p>Medical robotics hardware development. Designed high-density PCBs for surgical robotic systems.</p>
+                <div class="subproject">
+                    <h4>Multiplicative Quaternion Extended Kalman Filter</h4>
+                    <p>Implementation of MQEKF for attitude estimation based on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA588831.pdf" target="_blank">Maley's paper</a>.</p>
+                    <div class="media-grid">
+                        <video controls>
+                            <source src="images/mekf.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="plane">
+            <h2>Autonomous Plane</h2>
+            <div class="project">
+                <p>Custom UAV with autopilot, CFD aerodynamics analysis, and hardware-in-the-loop simulation.</p>
+                <div class="media-grid">
+                    <img src="images/uav_cad.png" alt="UAV CAD">
+                    <img src="images/xflr5.webp" alt="XFLR5 Analysis">
+                    <video controls>
+                        <source src="images/uav_flight.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/printedplane.webp" alt="Printed Plane">
+                    <video controls>
+                        <source src="images/slowtrainer.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/enclosure.webp" alt="Enclosure">
+                    <img src="images/mainboard.webp" alt="Main Board">
+                    <img src="images/carrier_pcb.webp" alt="Carrier PCB">
+                    <img src="images/autopilot_layout.png" alt="Autopilot Layout">
+                </div>
+                <div class="subproject">
+                    <h4>Hardware in the Loop Testing</h4>
+                    <p>Custom flight simulator written in Python for HIL testing.</p>
+                    <div class="media-grid">
+                        <video controls>
+                            <source src="images/hitl.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="cansat">
+            <h2>Canadian CanSat Design Challenge</h2>
+            <div class="project">
+                <p>University team competition designing a can-sized satellite with onboard camera and telemetry.</p>
+                <div class="media-grid">
+                    <video controls>
+                        <source src="images/cansat_onboard_camera.mp4" type="video/mp4">
+                    </video>
+                    <video controls>
+                        <source src="images/rocket_launch.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/cansat_complete.jpg" alt="CanSat Complete">
+                    <video controls>
+                        <source src="images/cansat_cad.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/cansat_pcb_photo.png" alt="CanSat PCB Photo">
+                    <img src="images/cansat_pcb_render.png" alt="CanSat PCB Render">
+                    <img src="images/cansat_pcb_schematic.png" alt="CanSat PCB Schematic">
+                    <img src="images/cansat_pcb_layout.png" alt="CanSat PCB Layout">
+                    <img src="images/presentation.png" alt="Presentation">
+                </div>
+            </div>
+        </section>
+        
+        <section id="lander">
+            <h2>Rocket Landing GNC Testbed</h2>
+            <div class="project">
+                <p>Vertical takeoff, vertical landing (VTVL) testbed for developing propulsive landing guidance algorithms.</p>
+                <div class="media-grid">
+                    <img src="images/hopper.webp" alt="Hopper">
+                    <img src="images/hopper_cad.png" alt="Hopper CAD">
+                    <img src="images/avionics_stack.webp" alt="Avionics Stack">
+                    <img src="images/stack_obc.webp" alt="OBC">
+                    <img src="images/stack_eps.webp" alt="EPS">
+                    <img src="images/first_pcb.webp" alt="First PCB">
+                </div>
+                <div class="subproject">
+                    <h4>Visual-Inertial Odometry</h4>
+                    <div class="media-grid">
+                        <video controls>
+                            <source src="images/vio.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="subproject">
+                    <h4>Successive Convexification Propulsive Landing Guidance</h4>
+                    <p>Implementation based on <a href="https://arxiv.org/pdf/1802.03827" target="_blank">Successive Convexification for 6-DoF Mars Rocket Powered Landing</a>.</p>
+                    <div class="media-grid">
+                        <video controls>
+                            <source src="images/sucessive_convex.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="eots">
+            <h2>Electro-Optical Tracking Turret</h2>
+            <div class="project">
+                <p> gimbaled camera system for target tracking with servo control.</p>
+                <div class="media-grid">
+                    <img src="images/eots_cad.png" alt="EO-TS CAD">
+                    <img src="images/eots.webp" alt="EO-TS">
+                    <img src="images/eots_tracking.webp" alt="EO-TS Tracking">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Jeffrey Zhuang</p>
+    </footer>
+</body>
+</html>
