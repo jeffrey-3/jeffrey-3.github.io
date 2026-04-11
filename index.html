@@ -181,6 +181,33 @@
             transition: border-color 0.3s, transform 0.3s;
         }
 
+        .media-grid video {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .media-grid video::before {
+            content: '';
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            z-index: 1;
+        }
+
+        .media-grid video.loaded::before {
+            display: none;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
         .media-grid img:hover, .media-grid video:hover {
             border-color: var(--accent);
             transform: scale(1.02);
@@ -372,5 +399,13 @@
     <footer>
         <p>&copy; 2026 Jeffrey Zhuang</p>
     </footer>
+<script>
+        document.querySelectorAll('.media-grid video').forEach(video => {
+            const onReady = () => video.classList.add('loaded');
+            video.addEventListener('playing', onReady);
+            video.addEventListener('canplaythrough', onReady);
+            setTimeout(onReady, 2000);
+        });
+    </script>
 </body>
 </html>
