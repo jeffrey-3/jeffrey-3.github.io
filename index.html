@@ -57,22 +57,49 @@
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        #loader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        #loader-text {
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        #loader-subtext {
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            opacity: 0.7;
+            line-height: 1.5;
         }
 
         #loader-bar {
             display: block;
-            width: 200px;
-            height: 3px;
+            width: 180px;
+            height: 4px;
             background: var(--border);
             border-radius: 2px;
             overflow: hidden;
+            margin-top: 0.5rem;
         }
 
         #loader-fill {
             height: 100%;
             background: linear-gradient(90deg, var(--accent), #a855f7);
             width: 0%;
-            transition: width 0.1s;
+            transition: width 0.2s ease-out;
         }
 
         #loader-percent {
@@ -280,7 +307,9 @@
 <body>
     <div id="loader">
         <div id="loader-center">
-            <div>Loading Videos...</div>
+            <div id="loader-spinner"></div>
+            <div id="loader-text">Loading Videos...</div>
+            <div id="loader-subtext">It's not broken, trust me.<br>My code is just really slow. 😂</div>
             <div id="loader-bar"><div id="loader-fill"></div></div>
         </div>
     </div>
