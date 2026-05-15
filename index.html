@@ -14,7 +14,6 @@
             --accent: #00d4ff;
             --accent-hover: #00a8cc;
             --border: #333;
-            --card-shadow: 0 4px 20px rgba(0,0,0,0.5);
         }
 
         * {
@@ -172,18 +171,17 @@
         main {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 0;
         }
         
-        
-        
         section {
-            margin-bottom: 4rem;
+            margin-bottom: 2rem;
         }
         
         section h2 {
             font-size: 1.75rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
+            padding: 0 2rem;
             color: var(--text-primary);
             font-weight: 700;
             display: flex;
@@ -200,51 +198,14 @@
             border-radius: 2px;
         }
         
-        .project {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 1rem;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: var(--card-shadow);
-            transition: border-color 0.3s;
-        }
-
-        .project:hover {
-            border-color: var(--accent);
-        }
-        
-        .project h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-        
-        .project p {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-            line-height: 1.8;
-        }
-
-        .project a {
-            color: var(--accent);
-            text-decoration: none;
-            transition: text-shadow 0.2s;
-        }
-
-        .project a:hover {
-            text-shadow: 0 0 8px rgba(0, 212, 255, 0.5);
-        }
-
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
 
         .media-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 1rem;
-            margin-top: 1.5rem;
         }
         
         .media-grid img, .media-grid video {
@@ -262,6 +223,41 @@
             transform: scale(1.02);
         }
         
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            background: rgba(0, 0, 0, 0.95);
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+        .lightbox.active {
+            display: flex;
+        }
+        .lightbox-close {
+            position: fixed;
+            top: 1rem;
+            right: 1.5rem;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+            z-index: 99999;
+            line-height: 1;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+        .lightbox-close:hover {
+            opacity: 1;
+        }
+        .lightbox img, .lightbox video {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 1rem;
+        }
+
         footer {
             text-align: center;
             padding: 3rem 2rem;
@@ -298,8 +294,21 @@
                 gap: 0.75rem;
             }
 
+            section h2 {
+                padding: 0 1rem;
+                font-size: 1.2rem;
+            }
+
             .media-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.25rem;
+            }
+
+            .media-grid img, .media-grid video {
+                height: 120px;
+                object-fit: contain;
+                border-radius: 0;
+                border: none;
             }
         }
     </style>
@@ -337,19 +346,14 @@
     <main>
         <section id="radar">
             <h2>6 GHz Frequency Modulated Continuous Wave Radar</h2>
-            <div class="project">
-                <p>Work in progress.</p>
-                <div class="media-grid">
-                    <img src="images/radar-schematic.png" alt="Radar Schematic">
-                </div>
+            <div class="media-grid">
+                <img src="images/radar-schematic.png" alt="Radar Schematic">
             </div>
         </section>
 
         <section id="missile">
             <h2>Micro 33mm Precision-Guided Missile</h2>
-            <div class="project">
-                <p>Development of a micro-scale precision-guided missile with onboard computer vision targeting and 6DOF flight simulation.</p>
-                <div class="media-grid">
+            <div class="media-grid">
                     <img src="images/missile-assembled.png" alt="Missile assembled">
                     <img src="images/guided_missile.png" alt="Guided missile">
                     <video autoplay muted loop playsinline>
@@ -364,14 +368,11 @@
                     </video>
                     <img src="images/missile-sim.gif" alt="Missile Simulation">
                 </div>
-            </div>
         </section>
         
         <section id="plane">
             <h2>Autonomous Plane</h2>
-            <div class="project">
-                <p>Custom UAV with autopilot, CFD aerodynamics analysis, and hardware-in-the-loop simulation.</p>
-                <div class="media-grid">
+            <div class="media-grid">
                     <img src="images/uav_cad.png" alt="UAV CAD">
                     <img src="images/xflr5.webp" alt="XFLR5 Analysis">
                     <video autoplay muted loop playsinline>
@@ -388,14 +389,11 @@
                         <source src="images/hitl.mp4" type="video/mp4">
                     </video>
                 </div>
-            </div>
         </section>
         
         <section id="lander">
             <h2>Rocket Landing GNC Testbed</h2>
-            <div class="project">
-                <p>Vertical takeoff, vertical landing (VTVL) testbed for developing propulsive landing guidance algorithms.</p>
-                <div class="media-grid">
+            <div class="media-grid">
                     <img src="images/hopper.webp" alt="Hopper">
                     <img src="images/hopper_cad.png" alt="Hopper CAD">
                     <img src="images/avionics_stack.webp" alt="Avionics Stack">
@@ -410,14 +408,11 @@
                     </video>
                     <img src="images/gfold_poster.png" alt="G-FOLD Poster">
                 </div>
-            </div>
         </section>
         
         <section id="cansat">
             <h2>Canadian CanSat Design Challenge</h2>
-            <div class="project">
-                <p>Team competition designing a can-sized satellite with onboard camera and telemetry.</p>
-                <div class="media-grid">
+            <div class="media-grid">
                     <video autoplay muted loop playsinline>
                         <source src="images/cansat_onboard_camera.mp4" type="video/mp4">
                     </video>
@@ -434,33 +429,26 @@
                     <img src="images/cansat_pcb_layout.png" alt="CanSat PCB Layout">
                     <img src="images/presentation.png" alt="Presentation">
                 </div>
-            </div>
         </section>
         
         <section id="eots">
             <h2>Electro-Optical Tracking Turret</h2>
-            <div class="project">
-                <p>Gimbaled camera system for target tracking with servo control.</p>
-                <div class="media-grid">
+            <div class="media-grid">
                     <img src="images/eots_cad.png" alt="EO-TS CAD">
                     <img src="images/eots.webp" alt="EO-TS">
                     <img src="images/eots_tracking.webp" alt="EO-TS Tracking">
                 </div>
-            </div>
         </section>
         
         <section id="mekf">
             <h2>MEKF</h2>
-            <div class="project">
-                <p>Multiplicative Quaternion Extended Kalman Filter for attitude estimation (done as part of an internship).</p>
-                <div class="media-grid">
+            <div class="media-grid">
                     <video autoplay muted loop playsinline>
                         <source src="images/mekf.mp4" type="video/mp4">
                     </video>
                     <img src="images/revolve.jpg" alt="Revolve">
                     <img src="images/emc.jfif" alt="EMC">
                 </div>
-            </div>
         </section>
     </main>
     
@@ -479,6 +467,57 @@ function update() {
     el.addEventListener('error', () => { loaded++; update(); });
 });
 window.addEventListener('load', () => setTimeout(() => document.getElementById('loader').classList.add('hidden'), 500));
+
+const lightbox = document.createElement('div');
+lightbox.className = 'lightbox';
+document.body.appendChild(lightbox);
+
+const closeBtn = document.createElement('span');
+closeBtn.className = 'lightbox-close';
+closeBtn.textContent = '\u2715';
+lightbox.appendChild(closeBtn);
+
+const content = document.createElement('div');
+content.style.cssText = 'display:flex;justify-content:center;align-items:center;flex:1;width:100%;';
+lightbox.appendChild(content);
+
+function closeLightbox() { lightbox.classList.remove('active'); }
+
+lightbox.addEventListener('click', e => {
+    if (e.target.tagName !== 'IMG' && e.target.tagName !== 'VIDEO') closeLightbox();
+});
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+});
+
+document.querySelectorAll('.media-grid img, .media-grid video').forEach(el => {
+    el.style.cursor = 'zoom-in';
+    el.addEventListener('click', e => {
+        e.stopPropagation();
+        content.innerHTML = '';
+        if (el.tagName === 'IMG') {
+            const img = document.createElement('img');
+            img.src = el.src;
+            content.appendChild(img);
+        } else {
+            const video = document.createElement('video');
+            video.autoplay = true;
+            video.muted = true;
+            video.loop = true;
+            video.playsInline = true;
+            video.controls = true;
+            const src = el.querySelector('source');
+            if (src) {
+                const ns = document.createElement('source');
+                ns.src = src.src;
+                ns.type = src.type;
+                video.appendChild(ns);
+            }
+            content.appendChild(video);
+        }
+        lightbox.classList.add('active');
+    });
+});
 </script>
 </body>
 </html>
