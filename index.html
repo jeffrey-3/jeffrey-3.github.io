@@ -167,6 +167,26 @@
             color: var(--accent);
             font-size: 0.85rem;
         }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            line-height: 1;
+            border-radius: 0.5rem;
+            transition: color 0.2s, background 0.2s, transform 0.2s;
+        }
+        .hamburger:hover {
+            color: var(--accent);
+            background: var(--bg-tertiary);
+        }
+        .hamburger.active {
+            transform: rotate(90deg);
+        }
         
         main {
             max-width: 1200px;
@@ -271,26 +291,52 @@
             }
 
             nav {
-                flex-direction: column;
-                gap: 0.75rem;
+                flex-wrap: wrap;
+                gap: 0;
             }
 
             .nav-left {
-                flex-direction: column;
-                gap: 0.5rem;
+                flex: 1;
+                min-width: 0;
             }
 
-            .nav-left h1 {
-                text-align: center;
-            }
-
-            .header-links {
+            .hamburger {
+                display: flex;
+                align-items: center;
                 justify-content: center;
             }
 
             .nav-right {
-                justify-content: center;
-                gap: 0.75rem;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                max-height: 0;
+                overflow: hidden;
+                opacity: 0;
+                transition: max-height 0.35s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+                background: var(--bg-secondary);
+                border-radius: 0.75rem;
+                padding: 0 0.75rem;
+                margin-top: 0;
+                gap: 0;
+            }
+            .nav-right.open {
+                max-height: 500px;
+                opacity: 1;
+                padding: 0.75rem;
+                margin-top: 0.75rem;
+            }
+            .nav-right li {
+                padding: 0.5rem 0;
+                border-bottom: 1px solid var(--border);
+            }
+            .nav-right li:last-child {
+                border-bottom: none;
+            }
+            .nav-right a {
+                display: block;
+                font-size: 0.95rem;
+                padding: 0.25rem 0;
             }
 
             section h2 {
@@ -330,6 +376,7 @@
                     <a href="https://www.linkedin.com/in/jeffreyzhuang/" target="_blank">LinkedIn</a>
                 </div>
             </div>
+            <button class="hamburger" aria-label="Toggle menu">☰</button>
             <ul class="nav-right">
                 <li><a href="#radar">Radar</a></li>
                 <li><a href="#missile">Missile</a></li>
@@ -487,6 +534,21 @@ lightbox.addEventListener('click', e => {
 });
 document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeLightbox();
+});
+
+const hamburger = document.querySelector('.hamburger');
+const navRight = document.querySelector('.nav-right');
+hamburger.addEventListener('click', () => {
+    navRight.classList.toggle('open');
+    hamburger.classList.toggle('active');
+    hamburger.textContent = navRight.classList.contains('open') ? '\u2715' : '\u2630';
+});
+navRight.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+        navRight.classList.remove('open');
+        hamburger.classList.remove('active');
+        hamburger.textContent = '\u2630';
+    });
 });
 
 document.querySelectorAll('.media-grid img, .media-grid video').forEach(el => {
