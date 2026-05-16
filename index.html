@@ -105,6 +105,77 @@
             color: var(--text-secondary);
             font-size: 0.85rem;
         }
+
+        #intro {
+            padding: 3rem 2rem 2rem;
+        }
+
+        .intro-content {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .intro-images {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .intro-images figure {
+            margin: 0;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            background: var(--bg-tertiary);
+            transition: border-color 0.3s;
+            flex: 1;
+            max-width: 340px;
+        }
+
+        .intro-images figure:hover {
+            border-color: var(--accent);
+        }
+
+        .intro-images img {
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+            display: block;
+            cursor: zoom-in;
+        }
+
+        .intro-images figcaption {
+            padding: 0.4rem 0.75rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-align: center;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 768px) {
+            .intro-images {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .intro-images figure {
+                max-width: 100%;
+                width: 100%;
+            }
+
+            .intro-images img {
+                height: 250px;
+            }
+
+            #intro {
+                padding: 1.5rem 1rem 1rem;
+            }
+        }
         
         header {
             background: rgba(15, 15, 15, 0.95);
@@ -390,6 +461,21 @@
     </header>
     
     <main>
+        <section id="intro">
+            <div class="intro-content">
+                <div class="intro-images">
+                    <figure>
+                        <img src="images/cleanroom.jpg" alt="Jeffrey in satellite cleanroom">
+                        <figcaption>Satellite integration cleanroom</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/hawthorne.png" alt="Jeffrey at SpaceX Hawthorne">
+                        <figcaption>SpaceX Falcon 9, Hawthorne</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
         <section id="radar">
             <h2>6 GHz Frequency Modulated Continuous Wave Radar</h2>
             <div class="media-grid">
