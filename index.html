@@ -654,7 +654,7 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     hamburger.textContent = navRight.classList.contains('open') ? '\u2715' : '\u2630';
 });
-navRight.querySelectorAll('a').forEach(a => {
+document.querySelectorAll('nav a[href^="#"]').forEach(a => {
     a.addEventListener('click', (e) => {
         const targetId = a.getAttribute('href').substring(1);
         const target = document.getElementById(targetId);
