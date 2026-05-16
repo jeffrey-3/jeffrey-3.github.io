@@ -268,6 +268,7 @@
         section {
             margin-bottom: 2rem;
             padding-top: 1rem;
+            scroll-margin-top: 5rem;
         }
         
         section h2 {
@@ -377,6 +378,10 @@
         }
 
         @media (max-width: 768px) {
+            section {
+                scroll-margin-top: 7rem;
+            }
+
             header {
                 padding: 0.75rem 1rem;
             }
@@ -650,10 +655,21 @@ hamburger.addEventListener('click', () => {
     hamburger.textContent = navRight.classList.contains('open') ? '\u2715' : '\u2630';
 });
 navRight.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => {
-        navRight.classList.remove('open');
-        hamburger.classList.remove('active');
-        hamburger.textContent = '\u2630';
+    a.addEventListener('click', (e) => {
+        const targetId = a.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+            e.preventDefault();
+            navRight.classList.remove('open');
+            hamburger.classList.remove('active');
+            hamburger.textContent = '\u2630';
+            setTimeout(() => {
+                const header = document.querySelector('header');
+                const offset = header ? header.offsetHeight : 0;
+                const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset - 10;
+                window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+            }, 400);
+        }
     });
 });
 
