@@ -669,14 +669,19 @@ hamburger.addEventListener('click', () => {
     hamburger.textContent = navRight.classList.contains('open') ? '\u2715' : '\u2630';
 });
 document.querySelectorAll('nav a[href^="#"]').forEach(a => {
-    a.addEventListener('click', () => {
-        navRight.style.transition = 'none';
-        navRight.classList.remove('open');
-        hamburger.classList.remove('active');
-        hamburger.textContent = '\u2630';
-        requestAnimationFrame(() => {
-            navRight.style.transition = '';
-        });
+    a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href').substring(1);
+        const target = document.getElementById(id);
+        if (target) {
+            e.preventDefault();
+            navRight.classList.remove('open');
+            hamburger.classList.remove('active');
+            hamburger.textContent = '\u2630';
+            const header = document.querySelector('header');
+            const offset = header ? header.offsetHeight : 0;
+            const pos = target.getBoundingClientRect().top + window.scrollY - offset - 10;
+            window.scrollTo({ top: pos, behavior: 'smooth' });
+        }
     });
 });
 
