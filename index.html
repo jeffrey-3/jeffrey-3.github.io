@@ -655,21 +655,14 @@ hamburger.addEventListener('click', () => {
     hamburger.textContent = navRight.classList.contains('open') ? '\u2715' : '\u2630';
 });
 document.querySelectorAll('nav a[href^="#"]').forEach(a => {
-    a.addEventListener('click', (e) => {
-        const targetId = a.getAttribute('href').substring(1);
-        const target = document.getElementById(targetId);
-        if (target) {
-            e.preventDefault();
-            navRight.classList.remove('open');
-            hamburger.classList.remove('active');
-            hamburger.textContent = '\u2630';
-            setTimeout(() => {
-                const header = document.querySelector('header');
-                const offset = header ? header.offsetHeight : 0;
-                const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset - 10;
-                window.scrollTo({ top: targetPosition, behavior: 'smooth' });
-            }, 400);
-        }
+    a.addEventListener('click', () => {
+        navRight.style.transition = 'none';
+        navRight.classList.remove('open');
+        hamburger.classList.remove('active');
+        hamburger.textContent = '\u2630';
+        requestAnimationFrame(() => {
+            navRight.style.transition = '';
+        });
     });
 });
 
