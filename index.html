@@ -644,6 +644,7 @@ let origVideoNext = null;
 function restoreVideo() {
     const v = content.querySelector('video');
     if (v && origVideoParent) {
+        v.style.cursor = 'zoom-in';
         if (origVideoNext) origVideoParent.insertBefore(v, origVideoNext);
         else origVideoParent.appendChild(v);
     }
@@ -700,6 +701,7 @@ document.querySelectorAll('.media-grid img, .media-grid video').forEach(el => {
             content.innerHTML = '';
             origVideoParent = el.parentNode;
             origVideoNext = el.nextSibling;
+            el.style.cursor = 'default';
             content.appendChild(el);
         }
         lightbox.classList.add('active');
