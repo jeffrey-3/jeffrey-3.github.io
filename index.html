@@ -34,77 +34,7 @@
             min-height: 100vh;
         }
 
-        #loader {
-            position: fixed;
-            inset: 0;
-            background: var(--bg-primary);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            transition: opacity 0.3s;
-        }
 
-        #loader.hidden {
-            opacity: 0;
-            pointer-events: none;
-        }
-
-        #loader-center {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0.75rem;
-        }
-
-        #loader-spinner {
-            width: 50px;
-            height: 50px;
-            border: 3px solid var(--border);
-            border-top-color: var(--accent);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-        }
-
-        #loader-text {
-            color: var(--text-primary);
-            font-size: 1.1rem;
-            font-weight: 600;
-        }
-
-        #loader-subtext {
-            color: var(--text-secondary);
-            font-size: 0.75rem;
-            opacity: 0.7;
-            line-height: 1.5;
-        }
-
-        #loader-bar {
-            display: block;
-            width: 180px;
-            height: 4px;
-            background: var(--border);
-            border-radius: 2px;
-            overflow: hidden;
-            margin-top: 0.5rem;
-        }
-
-        #loader-fill {
-            height: 100%;
-            background: linear-gradient(90deg, var(--accent), #a855f7);
-            width: 0%;
-            transition: width 0.2s ease-out;
-        }
-
-        #loader-percent {
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-        }
 
         #intro {
             padding: 3rem 2rem 2rem;
@@ -309,9 +239,7 @@
             border-radius: 2px;
         }
         
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
+
 
         .media-grid {
             display: grid;
@@ -497,14 +425,7 @@
     </style>
 </head>
 <body>
-    <div id="loader">
-        <div id="loader-center">
-            <div id="loader-spinner"></div>
-            <div id="loader-text">Loading Jeffrey's Website...</div>
-            <div id="loader-subtext">It's not broken, trust me.<br>My code is just really slow. 😂</div>
-            <div id="loader-bar"><div id="loader-fill"></div></div>
-        </div>
-    </div>
+
     <header>
         <nav>
             <div class="nav-left">
@@ -645,17 +566,7 @@
         <p>&copy; 2026 Jeffrey Zhuang</p>
     </footer>
 <script>
-const fill = document.getElementById('loader-fill');
-const total = document.images.length + document.querySelectorAll('video').length;
-let loaded = 0;
-function update() {
-    fill.style.width = (loaded / total * 100) + '%';
-}
-[...document.images, ...document.querySelectorAll('video')].forEach(el => {
-    el.addEventListener('load', () => { loaded++; update(); });
-    el.addEventListener('error', () => { loaded++; update(); });
-});
-window.addEventListener('load', () => setTimeout(() => document.getElementById('loader').classList.add('hidden'), 500));
+
 
 function captureVideoFrame(video) {
     return new Promise(resolve => {
